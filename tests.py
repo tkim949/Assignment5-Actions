@@ -1,6 +1,7 @@
 import unittest
 import task
 
+
 class TestCase(unittest, unittest.TestCase):
 
     def test1(self):
