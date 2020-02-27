@@ -2,7 +2,7 @@ import unittest
 import task
 
 
-class TestCase(unittest, unittest.TestCase):
+class TestCase(unittest):
 
     def test1(self):
         expected = "success"
