@@ -22,7 +22,7 @@ class TestCase(unittest.TestCase):
         radius = 3
         result = task.getArea(radius)
         self.assertNotEqual(3, result)
-    '''
+
     def test1_getElementList(self):
         testList1 = [1, 2, 3, 4, 5, 6, 0]
         gotList = task.getElementList(testList1)
@@ -34,7 +34,7 @@ class TestCase(unittest.TestCase):
         gotList = task.getElementList(testList2)
         self.assertNotEqual('banana', gotList[0])
         self.assertNotEqual('apple', gotList[-1])
-
+    '''
     def test1_getdaysBWdates(self):
         date1 = date(2011, 4, 8)
         date2 = date(2020, 2, 27)
